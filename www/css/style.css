@@ -1,0 +1,35 @@
+/* http://www.materialpalette.com/blue/blue - MATERIAL COLOURS */
+/* http://www.google.co.uk/design/spec/style/color.html#color-color-palette - GOOGLE MATERIAL COLOR PALETTE */
+
+/********** EXTRA STYLE **********/
+
+/* LOGIN */
+.login-intro {
+	text-align: center !important;
+}
+
+.login-intro {
+	margin-bottom: 30px;
+}
+
+.login-screen {
+	background-color: #F5F5F5;
+}
+
+.button-border {
+	border-radius: 45px;
+}
+
+.header-color {
+	background-color: #0091EA;
+}
+
+.header-font, .header-item, .about-mod-header h1 {
+	color: #FFF;
+}
+
+/* MENU */
+.menu-profile-pic {
+	width: 30px;
+	height: 30px;
+}
