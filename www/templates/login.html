@@ -11,35 +11,18 @@
             <!-- INTRO -->
             <h4 class="login-intro"> Welcome to EatWell - Login here </h4>
 
-            <!-- USERNAME -->
-            <span class="input-label"> Username </span>
-
-            <label class="item item-input brief-field">
-
-                <input type="text">
-
-            </label>
+            <!-- LOGIN  WITH FACEBOOK-->
+            <button class="button button-block button-positive button-border" ng-click="LogIn(user)">
             
-            <!-- PASSWORD -->
-            <span class="input-label"> Password </span>
-
-            <label class="item item-input brief-field">
-
-                <input type="password">
-
-            </label>
-
-            <!-- LOGIN -->
-            <button class="button button-outline button-block button-positive button-border" ng-click="LogIn(user)">
-            
-                Login
+                <i class="icon ion-social-facebook"></i> Login with Facebook
 
             </button>
 
-            <button class="button button-outline button-block button-balanced button-border" ng-click="showPopup()">
-                
-                Forgot Password
+            <!-- LOGIN WITH GOOGLE -->
+            <button class="button button-block button-assertive button-border" ng-click="LogIn(user)">
             
+                <i class="icon ion-social-google"></i> Login with Google
+
             </button>
 
         </div>

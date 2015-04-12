@@ -17,7 +17,7 @@
 }
 
 .button-border {
-	border-radius: 45px;
+	border-radius: 5px;
 }
 
 .header-color {
@@ -32,4 +32,8 @@
 .menu-profile-pic {
 	width: 30px;
 	height: 30px;
+}
+
+.item {
+	border: 0px;
 }
