@@ -2,6 +2,8 @@
 var appConfig = function($stateProvider, $urlRouterProvider) 
 {
 
+  openFB.init({appId: '822229434530417'});
+
   $stateProvider
 
   /* MENU */
